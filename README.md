@@ -13,6 +13,8 @@ APIs: Python FastAPI + Uvicorn
 
 3- `uvicorn main:app --reload`
 
+4- API docs can be found at: [Local API Docs](http://localhost:8000/docs/)
+
 That's it
 
 ## Tech notes:
