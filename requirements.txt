@@ -1,0 +1,6 @@
+fastapi==0.115.2
+motor==3.6.0
+uvicorn==0.31.1
+python-dotenv==1.0.1
+requests==2.32.3
+black==24.10.0

@@ -1,0 +1,13 @@
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv()
+DB_CONNECTION_STRING = os.environ.get("DB_CONNECTION_STRING", "")
+DB_NAME = os.environ.get("DB_NAME", "")
+LOCATION_SEARCH_RADIUS = 12000
+OPEN_WEATHER_FORECAST_API_URL = os.environ.get("OPEN_WEATHER_FORECAST_API_URL")
+OPEN_WEATHER_WEATHER_API_URL = os.environ.get("OPEN_WEATHER_WEATHER_API_URL")
+OPEN_WEATHER_API_KEY = os.environ.get("OPEN_WEATHER_API_KEY")
+OPEN_WEATHER_ICON_URL = os.environ.get("OPEN_WEATHER_ICON_BASE_URL")
+OPEN_METEO_API_URL = os.environ.get("OPEN_METEO_API_URL")
