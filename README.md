@@ -16,6 +16,7 @@ APIs: Python FastAPI + Uvicorn
 That's it
 
 ## Tech notes:
+- The main app's flow is described in the [Flow Chart](/flowchart.pdf)
 - This is app was built to simulate having multiple data sources with different request/response structure, so we used [Strategy Pattern]() so each service has it's own way of fetching the data and [Adapter Pattern]() to format different responses into unified format.
 - Weather data are being stored for one hour (cached in the database) then they will expire and user will get fresh weather data after that
 - We're using special indexes for data expiration and geolocation search and the app makes sure they can be created in the database
